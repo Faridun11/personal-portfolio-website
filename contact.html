@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./Снимок_экрана_2025-01-08_111603-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Faridun</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="Logo">
+                <li>
+                    <a href="./index.html">Fari<span>dun</span></a>
+                </li>
+            </ul>
+            <ul class="About">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <ul class="hamburger">
+                <li>
+                    <label for="menu-toggle" class="buger">
+                        <input type="checkbox" id="menu-toggle" class="checkbox" onclick="handleOpen()">
+                        <span class="first"></span>
+                        <span class="secend"></span>
+                        <span class="third"></span>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="card">
+            <h1 class="h1">
+                Contact Me
+            </h1>
+            <h4 class="h4">If you have any questions or would like to get in touch with me, feel free to contact me
+                using the
+                information below or by filling out the contact form:</h4>
+            <form class="card_wrapper">
+                <input type="text" placeholder="Your Name" class="font_name">
+                <input type="text" placeholder="Your Surename" class="font_sure">
+                <textarea name="" id="" placeholder="Your Message" class="font_message"></textarea>
+                <button>Send Message</button>
+            </form>
+            <div class="font">
+                <a href="https://mail.google.com/" class="a"><i class="fa-solid fa-envelope fa-beat"></i>Email:
+                    <span class="span">faridunfakhridinov777@gmail.com</span></a>
+                <a href="tel:+998883932123" class="a"><i class="fa-solid fa-phone fa-beat"></i>Phone:
+                    <span class="span">+998883932123;</span></a>
+                <a href="https://github.com/Faridun11" class="a"><i class="fa-brands fa-github fa-beat"></i>GitHub
+                    <span class="span">Faridun11</span></a>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
