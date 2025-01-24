@@ -11,7 +11,7 @@ html {
 header {
     width: 100%;
     margin: auto;
-    box-shadow: 0 0 8px #004980;
+    box-shadow: 0 0 8px #004890;
 }
 
 header nav {
@@ -195,7 +195,7 @@ section aside .aside h2 {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
-    color: rgb(50, 50, 50);
+    color: rgb(29, 29, 29);
     letter-spacing: 2px;
 }
 
@@ -255,10 +255,10 @@ section aside .aside a .ca:hover {
 
 section aside .aside .main {
     max-width: 400px;
-    height: 100px;
+    height: 50px;
     display: flex;
     gap: 20px;
-    margin: 2rem 0 0 -3rem;
+    margin: 3rem 0 0 -3rem;
     justify-content: start;
     align-items: center;
 }
@@ -282,12 +282,12 @@ section aside .aside1 {
 
 section aside .aside1 .f {
     width: 37%;
-    padding: 12rem;
+    padding: 11.9rem;
     border-radius: 13px;
     background-image: url(/src/images/faridun.png);
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 3px 3px 5px #898a8b;
+    box-shadow: 3px 3px 5px #898a89;
     transition-duration: 0.7s;
 }
 
@@ -306,7 +306,7 @@ section aside .aside1 .f:hover {
 
     section aside {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     section aside .aside {
@@ -347,14 +347,7 @@ section aside .aside1 .f:hover {
     }
 }
 
-@media only screen and (max-width:830px) {
-    section aside {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-}
-
-@media only screen and (max-width:530px) {
+@media only screen and (max-width:550px) {
     section {
         padding: 2rem;
         display: flex;
@@ -406,7 +399,7 @@ section aside .aside1 .f:hover {
 
     section aside .aside .main {
         display: flex;
-        margin: 1.2rem 0 0;
+        margin: 3em 0 0 0;
     }
 
     section aside .aside .main a {
@@ -419,5 +412,216 @@ section aside .aside1 .f:hover {
         width: 37%;
         background-size: contain;
         padding: 10rem 10rem;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    section {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section aside {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+main {
+    width: 100%;
+    margin: 7rem auto 1rem;
+    padding: 10px;
+}
+
+main .main_wrapper {
+    max-width: 1200px;
+    padding: 10px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+main .main_wrapper .main_wrapper-item {
+    width: 30%;
+    box-shadow: 0 0 8px rgb(160, 160, 160);
+    padding: 20px 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .main_wrapper .main_wrapper-item img {
+    width: 75%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main .main_wrapper .main_wrapper-item h2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px blue;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main_wrapper .main_wrapper-item p {
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(92, 92, 92);
+}
+
+main .main_wrapper .main_wrapper-item button {
+    padding: 9px 25px;
+    font-weight: bold;
+    border: none;
+    background-color: #004e89;
+    border-radius: 8px;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px 4px #004e89;
+    cursor: pointer;
+}
+
+main .main_wrapper .main_wrapper-item button:active {
+    box-shadow: 2px 2px 5px #004e89;
+    cursor: pointer;
+}
+
+@media (max-width:1000px) {
+    main .main_wrapper .main_wrapper-item {
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width:800px) {
+    main .main_wrapper .main_wrapper-item {
+        width: 70%;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:500px) {
+    main {
+        margin: -1rem 0 1rem 0;
+    }
+
+    main .main_wrapper .main_wrapper-item {
+        width: 88%;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:400px) {
+    main .main_wrapper .main_wrapper-item {
+        width: 90%;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    padding: 10px 0 40px;
+}
+
+footer .footer_wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 3px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+footer .footer_wrapper .footer_wrapper-item:nth-child(1) {
+    width: 45%;
+}
+
+footer .footer_wrapper .footer_wrapper-item input {
+    width: 95%;
+    padding: 10px 0;
+    margin: 8px 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(83, 83, 83);
+}
+
+footer .footer_wrapper .footer_wrapper-item textarea {
+    width: 95%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    margin: 4px;
+    border-bottom: 2px solid rgb(83, 83, 83);
+}
+
+footer .footer_wrapper .footer_wrapper-item button {
+    width: 90%;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    border: none;
+    margin: 1rem 0rem 0 -0rem;
+    background-color: #004e89f3;
+    border-radius: 8px;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px 5px #004e89f3;
+    cursor: pointer;
+}
+
+footer .footer_wrapper .footer_wrapper-item button:active {
+    box-shadow: 2px 2px 5px #004e89f3;
+}
+
+@media (max-width:1180px) {
+
+    footer {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .footer_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 4rem;
+    }
+
+    footer .footer_wrapper .footer_wrapper-item {
+        width: 70%;
+        text-align: start;
+    }
+
+    footer .footer_wrapper .footer_wrapper-item:nth-child(1) {
+        width: 80%;
     }
 }
