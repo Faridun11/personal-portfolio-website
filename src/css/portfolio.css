@@ -217,6 +217,18 @@ section .card_wrapper .card .rasm .img2 {
     background-clip: content-box;
 }
 
+section .card_wrapper .card .rasm .myteam {
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+    background-image: url(/src/images/myteam.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+}
+
 section .card_wrapper .card a {
     text-decoration: none;
     text-align: center;
