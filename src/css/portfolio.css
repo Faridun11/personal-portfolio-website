@@ -163,7 +163,7 @@ section .card_wrapper {
 
 section .card_wrapper .card {
     max-width: 1200px;
-    margin: 3rem auto;
+    margin: 2rem auto;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -217,7 +217,7 @@ section .card_wrapper .card .rasm .img2 {
     background-clip: content-box;
 }
 
-/* section .card_wrapper .card .rasm .myteam {
+section .card_wrapper .card .rasm .myteam {
     width: 350px;
     height: 200px;
     padding: 10px;
@@ -225,9 +225,10 @@ section .card_wrapper .card .rasm .img2 {
     border-radius: 10px 10px 0 0;
     background-image: url(/src/images/myteam.png);
     background-repeat: no-repeat;
+    3
     background-size: cover;
     background-clip: content-box;
-} */
+}
 
 section .card_wrapper .card a {
     text-decoration: none;
