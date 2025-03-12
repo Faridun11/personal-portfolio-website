@@ -198,6 +198,7 @@ section .card_wrapper .card .rasm .img1 {
     width: 350px;
     height: 200px;
     margin-top: 10px;
+    padding: 0.5rem;
     border-radius: 10px 10px 0 0;
     background-image: url(/src/images/form.png);
     background-size: cover;
@@ -225,7 +226,6 @@ section .card_wrapper .card .rasm .myteam {
     border-radius: 10px 10px 0 0;
     background-image: url(/src/images/myteam.png);
     background-repeat: no-repeat;
-    3
     background-size: cover;
     background-clip: content-box;
 }
