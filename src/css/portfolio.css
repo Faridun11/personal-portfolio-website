@@ -278,6 +278,19 @@ section .card_wrapper .card .rasm .photo {
     background-clip: content-box;
 }
 
+section .card_wrapper .card .rasm .sellzee {
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+    background-image: url(/src/images/sellzee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+
 section .card_wrapper .card a {
     text-decoration: none;
     text-align: center;
