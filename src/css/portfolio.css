@@ -188,9 +188,10 @@ section .card_wrapper .card .rasm .igloo {
     height: 200px;
     margin-top: 12px;
     padding: 10px;
-    border-radius: 18px;
     background-image: url(/src/images/igloo.png);
     background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
     background-clip: content-box;
     background-repeat: no-repeat;
 }
@@ -201,7 +202,9 @@ section .card_wrapper .card .rasm .img {
     padding: 10px;
     border-radius: 10px;
     background-image: url(/src/images/velocity.png);
-    background-size: cover;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: top;
     background-clip: content-box;
     background-repeat: no-repeat;
 }
@@ -213,7 +216,9 @@ section .card_wrapper .card .rasm .img1 {
     padding: 0.5rem;
     border-radius: 10px 10px 0 0;
     background-image: url(/src/images/form.png);
-    background-size: cover;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
     background-clip: content-box;
     background-repeat: no-repeat;
 }
@@ -226,7 +231,9 @@ section .card_wrapper .card .rasm .img2 {
     border-radius: 10px 10px 0 0;
     background-image: url(/src/images/3.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
     background-clip: content-box;
 }
 
@@ -238,7 +245,9 @@ section .card_wrapper .card .rasm .myteam {
     border-radius: 10px 10px 0 0;
     background-image: url(/src/images/myteam.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
     background-clip: content-box;
 }
 
@@ -250,7 +259,9 @@ section .card_wrapper .card .rasm .weather {
     border-radius: 10px 10px 0 0;
     background-image: url(/src/images/weather.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
     background-clip: content-box;
 }
 
@@ -262,7 +273,9 @@ section .card_wrapper .card .rasm .xo {
     border-radius: 10px 10px 0 0;
     background-image: url(/src/images/xo.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
     background-clip: content-box;
 }
 
@@ -274,7 +287,9 @@ section .card_wrapper .card .rasm .bootstrap {
     border-radius: 10px 10px 0 0;
     background-image: url(/src/images/boostrap.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
     background-clip: content-box;
 }
 
@@ -286,7 +301,23 @@ section .card_wrapper .card .rasm .photo {
     border-radius: 10px 10px 0 0;
     background-image: url(/src/images/photo.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+    background-clip: content-box;
+}
+
+section .card_wrapper .card .rasm .evarugs {
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+    background-image: url(/src/images/evarugs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
     background-clip: content-box;
 }
 
@@ -298,7 +329,9 @@ section .card_wrapper .card .rasm .sellzee {
     border-radius: 10px 10px 0 0;
     background-image: url(/src/images/sellzee.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
     background-clip: content-box;
 }
 
