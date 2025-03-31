@@ -223,6 +223,20 @@ section .card_wrapper .card .rasm .img1 {
     background-repeat: no-repeat;
 }
 
+section .card_wrapper .card .rasm .todolist {
+    width: 350px;
+    height: 200px;
+    margin-top: 10px;
+    padding: 0.5rem;
+    border-radius: 10px 10px 0 0;
+    background-image: url(/src/images/todolist.png);
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+}
+
 section .card_wrapper .card .rasm .img2 {
     width: 350px;
     height: 200px;
